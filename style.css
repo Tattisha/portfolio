@@ -73,3 +73,12 @@ img {
   color: var(--accent-color);
   text-decoration: none;
 }
+
+.bottom-link {
+  font-size: 16px;
+  text-align: center;
+}
+
+.bottom-link a {
+  color: var(--main-color);
+}
