@@ -27,3 +27,49 @@ img {
   max-width: 30px;
   margin-bottom: -6px;
 }
+.container {
+  padding: 30px;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
+}
+
+#contact-button {
+  text-align: center;
+  padding: 30px 20px;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  font-size: 24px;
+  background-color: var(--secondary-color);
+  border-color: #fff;
+
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  box-shadow: 6px 6px 5px #8fb4c7;
+}
+#about-button {
+  text-align: center;
+  padding: 30px 27px;
+  border: 1px solid var(--main-color);
+  border-radius: 8px;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  box-shadow: 6px 6px 5px #8fb4c7;
+  color: var(--secondary-color);
+}
+#about-button a {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+#contact-button a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
