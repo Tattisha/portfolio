@@ -10,12 +10,13 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 65px;
   color: var(--main-color);
 }
 
 h3 {
   font-size: 28px;
+  color: grey;
 }
 
 body {
